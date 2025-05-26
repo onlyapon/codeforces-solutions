@@ -11,6 +11,11 @@ int main(){
             cout<<"YES\n";
             continue;
         }
+        if (a==n and b==n)
+        {
+            cout<<"YES\n";
+            continue;
+        }
         
         if (a+b>n or a+b+2>n)
         {

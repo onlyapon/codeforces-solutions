@@ -22,7 +22,7 @@ void solve(){
             {
                 if (v[i.second-1]>v[j])
                 {
-                    cout<<"YES\n"<<i.first<<" "<<i.second<<" "<<j<<"\n";
+                    cout<<"YES\n"<<i.first<<" "<<i.second<<" "<<j+1<<"\n";
                     return;
                 }
                 

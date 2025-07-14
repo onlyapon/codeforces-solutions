@@ -1,5 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+int __gcd(int x,int y){
+    if(x==0)
+        return y;
+    return __gcd(y % x, x);
+}
+
 int main(){
     int t;
     cin >> t;
